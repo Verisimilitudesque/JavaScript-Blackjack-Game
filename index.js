@@ -8,17 +8,23 @@ let isAlive  = true
 
 let message = ""
 
-if (sum <= 20) {
-    message = "Do you want to draw a new card? 🙂"
-} else if (sum === 21) {
-    message = "Woohoo! You have a blackjack! 🥳"
-    hasBlackJack = true
-} else {
-    message = "You're out of the game. 😭"
-    isAlive = false
+let messageEL = document.getElementById("message-el")
+console.log(messageEL)
+
+function startGame() {
+    if (sum <= 20) {
+        message = "Do you want to draw a new card?"
+    } else if (sum === 21) {
+        message = "You have a blackjack!"
+        hasBlackJack = true
+    } else {
+        message = "You're out of the game."
+        isAlive = false
+    }
+
+    messageEL.textContent = message
+
 }
 
 
-// Cash out yer cashhhh
 
-console.log(message)
