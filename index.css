@@ -24,6 +24,9 @@ button {
     font-weight: bold;
     border: none;
     font-size: large;
-    text-transform: capitalize;
+    text-transform: uppercase;
     border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
 }
