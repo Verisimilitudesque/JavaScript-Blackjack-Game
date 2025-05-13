@@ -4,7 +4,7 @@
 The design and development of a simple blackjame game that runs using JavaScript.
 
 📚 Course Information
-Course Name: Scrimba - LEarn JavaScript
+Course Name: Scrimba - Learn JavaScript
 
 Instructor(s): Per Harald Borgen
 
